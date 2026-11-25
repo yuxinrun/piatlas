@@ -1,0 +1,7 @@
+{
+  "name": "piatlas", "version": "1.0.0", "private": true, "type": "module",
+  "scripts": {"dev": "node scripts/generate.mjs && vite", "build": "tsc --noEmit && node scripts/generate.mjs && vite build && node scripts/check.mjs", "preview": "vite preview"},
+  "dependencies": {"highlight.js":"^11.11.1", "markdown-it":"^14.1.0"},
+  "devDependencies": {"typescript":"~5.9.3", "vite":"^7.3.8"}
+}
+
